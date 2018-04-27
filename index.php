@@ -21,7 +21,7 @@ while ($row = $rs->fetch_object()){
 
 
 echo "<pre>";
-print_r($acceso)
+print_r($acceso);
 echo "</pre>";
 
 mysqli_close($enlace);
