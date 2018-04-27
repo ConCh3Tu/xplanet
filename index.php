@@ -14,7 +14,7 @@ echo "Éxito: Se realizó una conexión apropiada a MySQL! La base de datos samp
 echo "Información del host: " . mysqli_get_host_info($enlace) . PHP_EOL;
 echo "<br>";
 
-$rs = mysqli_query($enlace,"SELECT * FROM db_acceso");
+$rs = mysqli_query($enlace,"SELECT * FROM db_personal");
 while ($row = $rs->fetch_object()){
     $acceso[] = $row;
 }    
